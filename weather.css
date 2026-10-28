@@ -1,0 +1,181 @@
+input::placeholder{
+  color :rgb(164, 142, 114);
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.themetoggle{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(212, 195, 169);
+  border-radius: 30px;
+  margin: 25px;
+  font-family: fantasy;
+  font-size: 20px;
+  border-color:antiquewhite;
+  border-width: 3px;
+  border-style:double;
+}
+
+#themeBtn{
+  background-color:rgb(92, 40, 1);
+  color:rgb(164, 142, 114);
+  height: 40px;
+  width: 150px;
+  border-radius: 40px;
+  border-style:solid;
+  border-width: 2px;
+  padding-right: 15px;
+  margin: 30px 0px 30px 0px;
+  font-family:fantasy;
+  font-size: larger;
+}
+
+.search-section{
+  display: flex;
+  justify-content: space-around;
+   background-color: rgb(212, 195, 169);
+  border-radius: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 80px;
+  border-color:antiquewhite;
+  border-width: 3px;
+  border-style:double;
+}
+#cityInput{
+  
+  background-color:rgb(92, 40, 1);
+  height: 50px;
+   border-radius: 40px;
+  border-style:solid;
+  border-color: black;
+  margin: 12px;
+ font-size:20px;
+ font-family:fantasy;
+  color:rgb(164, 142, 114);
+  text-align: center;
+  min-width: 70%;
+}
+#searchBtn{
+  border: none;
+  font-size:xx-large;
+  background: none;
+  padding-right: 15px;
+}
+#errorMsg{
+  font-size: x-large;
+  text-align: center;
+  padding-top: 25px;
+  text-decoration: underline;
+  font-family:sans-serif;
+  color: rgb(163, 12, 12);
+}
+#weatherCard{
+  background-color: grey;
+  padding: 5px 25px 15px 25px;
+  border-radius: 25px;
+  text-align: left;
+  margin: 35px auto;
+  max-width: fit-content;
+  height:max-content;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  border-color:antiquewhite;
+  border-width: 3px;
+  border-style:double;
+}
+
+#show{
+  background-color:rgb(92, 40, 1);
+  color:rgb(164, 142, 114);
+  border-radius: 30px;
+  border-color: black;
+  border-style:double;
+  height: 40px;
+  width: 150px;
+  font-family:fantasy;
+  font-size: 26px;
+  /* margin: 15px;          1 */
+  
+  
+}
+#add{
+  
+  background-color:rgb(92, 40, 1);
+  color:rgb(164, 142, 114);
+  border-radius: 30px;
+  border-color: black;
+  border-style:double;
+  height: 40px;
+  width: 110px;
+  font-size: 24px;
+  font-family:fantasy;
+}
+#remove{
+
+
+  background-color:rgb(92, 40, 1);
+  color:rgb(164, 142, 114);
+  border-radius: 30px;
+  border-color: black;
+  border-style:double;
+  height: 40px;
+  width: 110px;
+  font-size: 24px;
+  font-family:fantasy;
+}
+#allfav{
+  
+  background-color: rgb(212, 195, 169);
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto 20px auto ;
+  border-radius: 25px;
+  border-color:antiquewhite;
+  border-width: 2px;
+  border-style:double;
+}
+#favsec{
+  
+   border-color:antiquewhite;
+  border-width: 3px;
+  border-style:double;
+  max-width: max-content;
+  border-radius: 25px;
+}
+#favoritesList{
+   /* margin: 10px;                             2 */
+  background-color: rgb(212, 195, 169);
+  max-width: 150px;
+  border-radius: 25px;
+  padding: 5px 3px 5px 3px;
+  min-height: min-content;
+   border-color:antiquewhite;
+  border-width: 3px;
+  border-style:double;
+  align-items: flex-start;
+  
+}
+#favoritesList div{
+  background-color:rgb(92, 40, 1);
+  max-width: 150px;
+  border-radius: 25px;
+  padding: 5px 2px 5px 15px;
+  margin: 4px;
+  color:rgb(164, 142, 114);
+}
+#favsection{
+  margin: 0px 0px 0px 15px;
+  display: flex;
+  align-self: center;
+  border-color:antiquewhite;
+  border-width: 3px;
+  border-style:double;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+
+
